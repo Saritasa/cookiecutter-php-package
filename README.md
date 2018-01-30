@@ -1,4 +1,4 @@
 ## PHP Package template
 
-Template for PHP Packages, that can be installed with [Composer]()
+Template for PHP Packages, that can be installed with [Composer](https://getcomposer.org)
 
