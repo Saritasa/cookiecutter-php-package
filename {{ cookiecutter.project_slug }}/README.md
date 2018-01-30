@@ -47,7 +47,7 @@ If you have [GNU Make](https://www.gnu.org/software/make/) installed, you can us
 
 ## Resources
 
-* [Bug Tracker](http://github.com/{{ cookiecutter.repo_id }}/issues)
-* [Code](http://github.com/{{ cookiecutter.repo_id }})
+* [Bug Tracker]({{ cookiecutter.repo_url }}/issues)
+* [Code]({{ cookiecutter.repo_url }})
 * [Changes History](CHANGES.md)
-* [Authors](http://github.com/{{ cookiecutter.repo_id }}/contributors)
+* [Authors]({{ cookiecutter.repo_url }}/contributors)

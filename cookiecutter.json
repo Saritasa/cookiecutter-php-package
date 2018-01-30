@@ -6,7 +6,7 @@
   "package_name": "{{ cookiecutter.github_user|lower }}/{{ cookiecutter.project_slug }}",
   "repo_name": "php-{{ cookiecutter.project_slug }}",
   "repo_id": "{{ cookiecutter.github_user }}/{{ cookiecutter.repo_name }}",
-  "repo_url": "https://github.com/{{ cookiecutter.repo_id }}.git",
+  "repo_url": "https://github.com/{{ cookiecutter.repo_id }}",
   "repo_ssh": "git@github.com:{{ cookiecutter.repo_id }}.git",
   "author_name": "Sergey Populov",
   "author_email": "sergey@saritasa.com"
