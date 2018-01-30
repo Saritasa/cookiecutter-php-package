@@ -3,7 +3,7 @@
 namespace {{ cookiecutter.classes_namespace }};
 
 /**
- * {{ cookiecutter.package_name class example }}
+ * {{ cookiecutter.project_name }} class example
  */
 class Example
 {

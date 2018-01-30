@@ -6,8 +6,7 @@
 [![PHPv](https://img.shields.io/packagist/php-v/{{ cookiecutter.package_name }}.svg)](http://www.php.net)
 [![Downloads](https://img.shields.io/packagist/dt/{{ cookiecutter.package_name }}.svg)](https://packagist.org/packages/{{ cookiecutter.package_name }})
 
-Common Saritasa classes and helpers, that can be used universally in any application.
-This package should not depend on any framework or library.
+TODO: Project description
 
 ## Usage
 
