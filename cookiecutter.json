@@ -2,12 +2,12 @@
   "project_name": "Package Name",
   "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
   "github_user": "Saritasa",
-  "classes_namespace": "{{ cookiecutter.github_user|replace('-', '') }}\\{{ cookiecutter.project_name|replace(' ', '') }}",
   "package_name": "{{ cookiecutter.github_user|lower }}/{{ cookiecutter.project_slug }}",
+  "classes_namespace": "{{ cookiecutter.github_user|replace('-', '') }}\\{{ cookiecutter.project_name|replace(' ', '') }}",
   "repo_name": "php-{{ cookiecutter.project_slug }}",
   "repo_id": "{{ cookiecutter.github_user }}/{{ cookiecutter.repo_name }}",
-  "repo_url": "https://github.com/{{ cookiecutter.repo_id }}",
   "repo_ssh": "git@github.com:{{ cookiecutter.repo_id }}.git",
+  "repo_url": "https://github.com/{{ cookiecutter.repo_id }}",
   "author_name": "Sergey Populov",
   "author_email": "sergey@saritasa.com"
 }
