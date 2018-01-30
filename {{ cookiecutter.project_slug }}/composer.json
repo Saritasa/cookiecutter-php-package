@@ -19,11 +19,11 @@
     },
     "autoload": {
         "psr-4" : {
-            "{{ cookiecutter.classes_namespace|replace('\\', '\\\\'') }}\\": "src/"
+            "{{ cookiecutter.classes_namespace|replace('\\', '\\\\') }}\\": "src/"
         }
     },
     "autoload-dev": {
-        "psr-4": { "{{ cookiecutter.classes_namespace|replace('\\', '\\\\'') }}\\Tests\\": "tests/" }
+        "psr-4": { "{{ cookiecutter.classes_namespace|replace('\\', '\\\\') }}\\Tests\\": "tests/" }
     },
     "config": {
         "preferred-install": "dist",
