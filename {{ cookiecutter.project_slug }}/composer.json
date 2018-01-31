@@ -3,6 +3,7 @@
     "type": "library",
     "description": "{{ cookiecutter.project_name }}",
     "keywords": ["php", "{{ cookiecutter.github_user }}"],
+    "homepage": "{{ cookiecutter.repo_url }}",
     "license": "MIT",
     "authors": [
         {
@@ -33,5 +34,8 @@
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
