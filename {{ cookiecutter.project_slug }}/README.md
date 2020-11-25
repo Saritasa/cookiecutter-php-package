@@ -1,6 +1,6 @@
 # {{ cookiecutter.project_name }}
 
-[![Build Status](https://travis-ci.org/{{ cookiecutter.repo_id }}.svg?branch=master)](https://travis-ci.org/{{ cookiecutter.repo_id }})
+[![Build Status](https://github.com/{{ cookiecutter.repo_id }}workflows/build/badge.svg)](https://github.com/{{ cookiecutter.repo_id }}/actions)
 [![CodeCov](https://codecov.io/gh/{{ cookiecutter.repo_id }}/branch/master/graph/badge.svg)](https://codecov.io/gh/{{ cookiecutter.repo_id }})
 [![Release](https://img.shields.io/github/release/{{ cookiecutter.repo_id }}.svg)](https://github.com/{{ cookiecutter.repo_id }}/releases)
 [![PHPv](https://img.shields.io/packagist/php-v/{{ cookiecutter.package_name }}.svg)](http://www.php.net)
